@@ -1,0 +1,93 @@
+body{
+  background-color: #bed6bf;
+  padding: 10px;
+  border-style: double;
+  border-width: 10px;
+}
+
+h1{
+ font-family: 'Cedarville Cursive', cursive;
+ text-align: center;
+}
+
+img{
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+img:hover{
+  transform: scale(1.2);
+  transition: transform .5s;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1400px){
+  img{
+    height: 175px;
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  img{
+    height: 150px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  img{
+    height: 100px;
+    width: 125px
+  }
+  img:hover{
+    transform: scale(1.4);
+    transition: transform .5s;
+  }
+}
+
+@media screen and (max-width: 700px){
+  img{
+    height: 75px;
+    width: 100px;
+  }
+  img:hover{
+    transform: scale(1.5);
+    transition: transform .5s;
+  }
+}
+
+@media screen and (max-width: 600px){
+  img{
+    height: 60px;
+    width: 90px;
+    padding: 10px;
+    border-radius: 14px;
+  }
+  img:hover{
+    transform: scale(1.6);
+    transition: transform .5s;
+  }
+}
+
+@media screen and (max-width: 550px){
+  img{
+    height: 55px;
+    width: 80px;
+    padding: 10px;
+    border-radius: 13px;
+  }
+  img:hover{
+    transform: scale(1.7);
+    transition: transform .5s;
+  }
+}
