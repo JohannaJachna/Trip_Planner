@@ -135,17 +135,34 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width:50%;
+    width:25%;
     position: fixed;
     display:flex;
     flex-direction: column;
     right:0;
-    font-size:20px;
+    font-size:14px;
     align-items:center;
-    padding:20px;
     margin:3%;
-    margin-top:540px;
-
+    margin-top:565px;
+}
+.blogButton{
+  background-color:#f4fbfc;
+  border: solid 2px;
+  border-radius:10px;
+  border-color:black;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width:25%;
+  position: fixed;
+  display:flex;
+  flex-direction: column;
+  right:0;
+  font-size:15px;
+  align-items:center;
+  margin:3%;
+  margin-top:590px;
 }
 
 
@@ -159,3 +176,10 @@ img {
     font-size:15px;
 }
 }
+
+@media screen and (max-width: 600px) {
+  #generator{
+    font-size: 15px;
+  }
+}
+
