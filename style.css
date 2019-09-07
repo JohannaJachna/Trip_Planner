@@ -139,11 +139,11 @@ img {
     position: fixed;
     display:flex;
     flex-direction: column;
-    right:0;
+    right:600px;
     font-size:14px;
     align-items:center;
     margin:3%;
-    margin-top:600px;
+    margin-top:10px;
 }
 .blogButton{
   background-color:#f4fbfc;
