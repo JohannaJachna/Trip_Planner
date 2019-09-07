@@ -128,8 +128,8 @@ img {
 }
 .galleryButton {
     background-color:#f4fbfc;
-    border: solid 2px;
-    border-radius:50px;
+    border: solid 5px;
+    border-radius:10px;
     border-color:black;
     align-items: center;
     margin-left: auto;
