@@ -158,7 +158,7 @@ img {
   width:25%;
   position: fixed;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   right:0;
   font-size:15px;
   align-items:center;
