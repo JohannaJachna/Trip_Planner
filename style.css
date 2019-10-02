@@ -1,12 +1,4 @@
-h1 {
-    /*font-family: 'Cedarville Cursive', cursive;*/
-    font-family: 'Marck Script', cursive;
-    display:flex;
-    color:black;
-    justify-content: center;
-    margin-top:1%;
-    margin-bottom:1%;
-}
+
 html {
     background-color: #bed6bf;
 }
