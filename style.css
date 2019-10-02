@@ -152,19 +152,13 @@ img {
   border-radius:10px;
   border-color:black;
   align-items: center;
-  margin-left: 10px;
-  margin-right: 10px;
   display: block;
   width:25%;
-  display:flex;
-  flex-direction: row;
-  right:0;
   font-size:15px;
   align-items:center;
-  margin:3%;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 /* MEDIA QUERIES*/
