@@ -124,19 +124,17 @@ img {
   background-color:#f4fbfc;
   border: solid 2px;
   border-radius:10px;
-  border-color:black;
   align-items: center;
   width:25%;
   font-size:11px;
   position: absolute;
   bottom: 0px;
-  right: 100px;
+  right: 400px;
 }
 .galleryButton {
   background-color:#f4fbfc;
   border: solid 2px;
   border-radius:10px;
-  border-color:black;
   align-items: center;
   width:25%;
   font-size:11px;
