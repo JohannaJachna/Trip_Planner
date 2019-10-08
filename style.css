@@ -1,6 +1,9 @@
 title {
     display: flex;
     text-align: center;
+    justify-content: center;
+    margin-top:1%;
+    margin-bottom:1%;
 }
 html {
     background-color: #bed6bf;
